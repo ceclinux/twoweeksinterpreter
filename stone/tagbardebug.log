@@ -1,0 +1,119 @@
+
+
+VIM - Vi IMproved 8.0 (2016 Sep 12, compiled Nov  9 2017 11:59:11)
+macOS version
+Included patches: 1-1250
+Compiled by Homebrew
+Huge version without GUI.  Features included (+) or not (-):
++acl             +cscope          -footer          +menu            +num64           +startuptime     +vertsplit
++arabic          +cursorbind      +fork()          +mksession       +packages        +statusline      +virtualedit
++autocmd         +cursorshape     -gettext         +modify_fname    +path_extra      -sun_workshop    +visual
+-balloon_eval    +dialog_con      -hangul_input    +mouse           +perl            +syntax          +visualextra
+-browse          +diff            +iconv           -mouseshape      +persistent_undo +tag_binary      +viminfo
+++builtin_terms  +digraphs        +insert_expand   +mouse_dec       +postscript      +tag_old_static  +vreplace
++byte_offset     -dnd             +job             -mouse_gpm       +printer         -tag_any_white   +wildignore
++channel         -ebcdic          +jumplist        -mouse_jsbterm   +profile         -tcl             +wildmenu
++cindent         +emacs_tags      +keymap          +mouse_netterm   +python          +termguicolors   +windows
+-clientserver    +eval            +lambda          +mouse_sgr       -python3         +terminal        +writebackup
++clipboard       +ex_extra        +langmap         -mouse_sysmouse  +quickfix        +terminfo        -X11
++cmdline_compl   +extra_search    +libcall         +mouse_urxvt     +reltime         +termresponse    -xfontset
++cmdline_hist    +farsi           +linebreak       +mouse_xterm     +rightleft       +textobjects     -xim
++cmdline_info    +file_in_path    +lispindent      +multi_byte      +ruby            +timers          -xpm
++comments        +find_in_path    +listcmds        +multi_lang      +scrollbind      +title           -xsmp
++conceal         +float           +localmap        -mzscheme        +signs           -toolbar         -xterm_clipboard
++cryptv          +folding         -lua             +netbeans_intg   +smartindent     +user_commands   -xterm_save
+   system vimrc file: "$VIM/vimrc"
+     user vimrc file: "$HOME/.vimrc"
+ 2nd user vimrc file: "~/.vim/vimrc"
+      user exrc file: "$HOME/.exrc"
+       defaults file: "$VIMRUNTIME/defaults.vim"
+  fall-back for $VIM: "/usr/local/share/vim"
+Compilation: 
+clang -c -I. -Iproto -DHAVE_CONFIG_H   -DMACOS_X -DMACOS_X_DARWIN  -g -O2 -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1       
+Linking: clang   -L. -fstack-protector -L/usr/local/lib -L/usr/local/opt/libyaml/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/libksba/lib -L/usr/local/opt/openssl/lib  -L/usr/local/lib -o vim        -lm  -lncurses -liconv -framework AppKit   -fstack-protector  -L/System/Library/Perl/5.18/darwin-thread-multi-2level/CORE -lperl -F/usr/local/opt/python/Frameworks -framework Python   -lruby.2.3.0 -lgmp -lobjc -L/Users/rcs/.rvm/rubies/ruby-2.3.3/lib    2017-12-10 21:18:10.289876: AutoUpdate called [/Users/rcs/Documents/nutstore/stoneproject/stone/[Command Line]]
+2017-12-10 21:18:10.290101: Vim filetype: 'java', sanitized filetype: 'java'
+2017-12-10 21:18:10.291645: Checking if file is valid [/Users/rcs/Documents/nutstore/stoneproject/stone/[Command Line]]
+2017-12-10 21:18:10.291860: File not readable
+2017-12-10 21:18:10.291921: Not a valid file, stopping processing
+2017-12-10 21:18:13.884570: ToggleWindow called
+2017-12-10 21:18:13.884919: CloseWindow called
+2017-12-10 21:18:13.886329: goto_win(): 4wincmd w, 0
+2017-12-10 21:18:13.918593: AutoUpdate called [/Users/rcs/Documents/nutstore/stoneproject/stone/__Tagbar__.1]
+2017-12-10 21:18:13.918842: In Tagbar window, stopping processing
+2017-12-10 21:18:13.998455: AutoUpdate called [/Users/rcs/Documents/nutstore/stoneproject/stone/Lexer.java]
+2017-12-10 21:18:13.998701: Vim filetype: 'java', sanitized filetype: 'java'
+2017-12-10 21:18:13.998824: Checking if file is valid [/Users/rcs/Documents/nutstore/stoneproject/stone/Lexer.java]
+2017-12-10 21:18:13.999133: File data seems up to date [/Users/rcs/Documents/nutstore/stoneproject/stone/Lexer.java]
+2017-12-10 21:18:13.999431: Setting current file [/Users/rcs/Documents/nutstore/stoneproject/stone/Lexer.java]
+2017-12-10 21:18:13.999926: AutoUpdate finished successfully
+2017-12-10 21:18:14.000957: goto_win(): 1wincmd w, 0
+2017-12-10 21:18:14.064321: AutoUpdate called [/Users/rcs/.vim/plugged/tagbar/doc/tagbar.txt]
+2017-12-10 21:18:14.064551: Vim filetype: 'help', sanitized filetype: 'help'
+2017-12-10 21:18:14.064873: Checking if file is valid [/Users/rcs/.vim/plugged/tagbar/doc/tagbar.txt]
+2017-12-10 21:18:14.065193: Unsupported filetype: help
+2017-12-10 21:18:14.065266: Not a valid file, stopping processing
+2017-12-10 21:18:14.066016: goto_win(): 2wincmd w, 0
+2017-12-10 21:18:14.088086: AutoUpdate called [/Users/rcs/.vimrc]
+2017-12-10 21:18:14.088206: Vim filetype: 'text', sanitized filetype: 'text'
+2017-12-10 21:18:14.088413: Checking if file is valid [/Users/rcs/.vimrc]
+2017-12-10 21:18:14.088624: Unsupported filetype: text
+2017-12-10 21:18:14.088699: Not a valid file, stopping processing
+2017-12-10 21:18:14.090071: CloseWindow finished
+2017-12-10 21:18:16.197214: AutoUpdate called [/Users/rcs/Documents/nutstore/stoneproject/stone/Lexer.java]
+2017-12-10 21:18:16.197408: Vim filetype: 'java', sanitized filetype: 'java'
+2017-12-10 21:18:16.197797: Checking if file is valid [/Users/rcs/Documents/nutstore/stoneproject/stone/Lexer.java]
+2017-12-10 21:18:16.198026: File data seems up to date [/Users/rcs/Documents/nutstore/stoneproject/stone/Lexer.java]
+2017-12-10 21:18:16.198240: Setting current file [/Users/rcs/Documents/nutstore/stoneproject/stone/Lexer.java]
+2017-12-10 21:18:16.198564: AutoUpdate finished successfully
+2017-12-10 21:18:17.472624: AutoUpdate called [/Users/rcs/.vim/plugged/tagbar/doc/tagbar.txt]
+2017-12-10 21:18:17.472911: Vim filetype: 'help', sanitized filetype: 'help'
+2017-12-10 21:18:17.473154: Checking if file is valid [/Users/rcs/.vim/plugged/tagbar/doc/tagbar.txt]
+2017-12-10 21:18:17.473443: Unsupported filetype: help
+2017-12-10 21:18:17.473523: Not a valid file, stopping processing
+2017-12-10 21:18:27.289252: AutoUpdate called [/Users/rcs/.vimrc]
+2017-12-10 21:18:27.290251: Vim filetype: 'text', sanitized filetype: 'text'
+2017-12-10 21:18:27.291021: Checking if file is valid [/Users/rcs/.vimrc]
+2017-12-10 21:18:27.291743: Unsupported filetype: text
+2017-12-10 21:18:27.291887: Not a valid file, stopping processing
+2017-12-10 21:18:27.292278: AutoUpdate called [/Users/rcs/.vim/plugged/tagbar/doc/tagbar.txt]
+2017-12-10 21:18:27.292590: Vim filetype: 'help', sanitized filetype: 'help'
+2017-12-10 21:18:27.292695: Checking if file is valid [/Users/rcs/.vim/plugged/tagbar/doc/tagbar.txt]
+2017-12-10 21:18:27.293421: Unsupported filetype: help
+2017-12-10 21:18:27.293566: Not a valid file, stopping processing
+2017-12-10 21:18:47.850571: AutoUpdate called [/Users/rcs/.vim/plugged/tagbar/doc/tagbar.txt]
+2017-12-10 21:18:47.852332: Vim filetype: 'help', sanitized filetype: 'help'
+2017-12-10 21:18:47.852439: Checking if file is valid [/Users/rcs/.vim/plugged/tagbar/doc/tagbar.txt]
+2017-12-10 21:18:47.852911: Unsupported filetype: help
+2017-12-10 21:18:47.853001: Not a valid file, stopping processing
+2017-12-10 21:18:58.457486: AutoUpdate called [/Users/rcs/Documents/nutstore/stoneproject/stone/[Command Line]]
+2017-12-10 21:18:58.457696: Vim filetype: 'java', sanitized filetype: 'java'
+2017-12-10 21:18:58.458253: Checking if file is valid [/Users/rcs/Documents/nutstore/stoneproject/stone/[Command Line]]
+2017-12-10 21:18:58.458632: File not readable
+2017-12-10 21:18:58.458994: Not a valid file, stopping processing
+2017-12-10 21:19:24.226658: AutoUpdate called [/Users/rcs/.vim/plugged/tagbar/doc/tagbar.txt]
+2017-12-10 21:19:24.226975: Vim filetype: 'help', sanitized filetype: 'help'
+2017-12-10 21:19:24.228529: Checking if file is valid [/Users/rcs/.vim/plugged/tagbar/doc/tagbar.txt]
+2017-12-10 21:19:24.229049: Unsupported filetype: help
+2017-12-10 21:19:24.229191: Not a valid file, stopping processing
+2017-12-10 21:19:33.778521: AutoUpdate called [/Users/rcs/.vim/plugged/tagbar/doc/tagbar.txt]
+2017-12-10 21:19:33.778825: Vim filetype: 'help', sanitized filetype: 'help'
+2017-12-10 21:19:33.780366: Checking if file is valid [/Users/rcs/.vim/plugged/tagbar/doc/tagbar.txt]
+2017-12-10 21:19:33.780898: Unsupported filetype: help
+2017-12-10 21:19:33.781031: Not a valid file, stopping processing
+2017-12-10 21:19:55.235796: AutoUpdate called [/Users/rcs/.vim/plugged/tagbar/doc/tagbar.txt]
+2017-12-10 21:19:55.237788: Vim filetype: 'help', sanitized filetype: 'help'
+2017-12-10 21:19:55.237935: Checking if file is valid [/Users/rcs/.vim/plugged/tagbar/doc/tagbar.txt]
+2017-12-10 21:19:55.238635: Unsupported filetype: help
+2017-12-10 21:19:55.238779: Not a valid file, stopping processing
+2017-12-10 21:20:55.294047: AutoUpdate called [/Users/rcs/Documents/nutstore/stoneproject/stone/Lexer.java]
+2017-12-10 21:20:55.294292: Vim filetype: 'java', sanitized filetype: 'java'
+2017-12-10 21:20:55.294420: Checking if file is valid [/Users/rcs/Documents/nutstore/stoneproject/stone/Lexer.java]
+2017-12-10 21:20:55.294700: File data seems up to date [/Users/rcs/Documents/nutstore/stoneproject/stone/Lexer.java]
+2017-12-10 21:20:55.294951: Setting current file [/Users/rcs/Documents/nutstore/stoneproject/stone/Lexer.java]
+2017-12-10 21:20:55.295391: AutoUpdate finished successfully
+2017-12-10 21:20:59.934180: AutoUpdate called [/Users/rcs/Documents/nutstore/stoneproject/stone/Lexer.java]
+2017-12-10 21:20:59.934373: Vim filetype: 'java', sanitized filetype: 'java'
+2017-12-10 21:20:59.935044: Checking if file is valid [/Users/rcs/Documents/nutstore/stoneproject/stone/Lexer.java]
+2017-12-10 21:20:59.935468: File data seems up to date [/Users/rcs/Documents/nutstore/stoneproject/stone/Lexer.java]
+2017-12-10 21:20:59.935815: Setting current file [/Users/rcs/Documents/nutstore/stoneproject/stone/Lexer.java]
+2017-12-10 21:20:59.936292: AutoUpdate finished successfully
