@@ -1,3 +1,4 @@
+package stone.ast;
 import java.util.Iterator;
 
 public abstract class ASTree implements Iterable<ASTree> {
@@ -5,5 +6,5 @@ public abstract class ASTree implements Iterable<ASTree> {
     public abstract int numChildren();
     public abstract Iterator<ASTree> children();
     public abstract String location();
-    public Iterator<ASTree> Iterator() {return children(); }
+    public Iterator<ASTree> iterator() {return children(); }
 }
