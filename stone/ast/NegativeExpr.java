@@ -2,7 +2,7 @@ package stone.ast;
 import java.util.List;
 
 public class NegativeExpr extends ASTList {
-    public NegativeExpr(List<ASTList> c) {super(c);}
+    public NegativeExpr(List<ASTree> c) {super(c);}
 
     public ASTree operand() {return child(0);}
 

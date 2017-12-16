@@ -8,7 +8,7 @@ public class ASTList extends ASTree {
     public ASTList(List<ASTree> list) {children = list;}
     public ASTree child(int i) { return children.get(i);}
     public int numChildren() {return children.size();}
-    public Iterator<ASTree> children() {return children.Iterator();}
+    public Iterator<ASTree> children() {return children.iterator();}
     public String toString(){
         StringBuilder builder = new StringBuilder();
         builder.append('(');
